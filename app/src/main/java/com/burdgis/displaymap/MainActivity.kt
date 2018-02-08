@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     private val TAG = "MainActivity"
 
-    // lateinnnit vars
+    // lateinnnit vars as suggested by ESRI
     lateinit var map: ArcGISMap
 
 

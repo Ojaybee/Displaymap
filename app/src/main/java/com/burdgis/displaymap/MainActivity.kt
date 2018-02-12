@@ -206,7 +206,7 @@ class MainActivity : AppCompatActivity() {
     private inner class DownloadFile() : AsyncTask<String, Int, Long>() {
 
 
-
+        //background process to download
         override fun doInBackground(vararg aurl: String): Long? {
             var filepath: String? = null
             val strFolderName = "/displayMap/basemaps/"

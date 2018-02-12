@@ -2,8 +2,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
+    <item
+        android:id="@+id/findMe"
+        android:title=""
+        app:showAsAction="always|ifRoom"
+        android:icon="@drawable/ic_gps_fixed_white_24dp"
+        />
+    <item
+        android:id="@+id/goOffline"
+        android:title=""
+        app:showAsAction="always|ifRoom"
+        android:icon="@drawable/ic_signal_wifi_off_white_24dp"
+        />
 
-    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/downloadMap"
+        android:title=""
+        app:showAsAction="always|ifRoom"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        />
+
+
+    <!--group android:checkableBehavior="single">
         <item
             android:id="@+id/World_Street_Map"
             app:showAsAction="never"
@@ -20,5 +41,5 @@
             android:id="@+id/Ocean_Basemap"
             app:showAsAction="never"
             android:title="@string/OceanMenu" />
-    </group>
+    </group-->
 </menu>

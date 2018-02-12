@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:displaymap="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/findMe"
+        android:title=""
+        displaymap:showAsAction="always"
+        android:icon="@drawable/ic_gps_fixed_white_24dp"
+        />
+    <item
+        android:id="@+id/goOffline"
+        android:title=""
+        displaymap:showAsAction="always"
+        android:icon="@drawable/ic_signal_wifi_off_white_24dp"
+        />
+    <item
+        android:id="@+id/downloadMap"
+        android:title=""
+        displaymap:showAsAction="always"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        />
+</menu>
